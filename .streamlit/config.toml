@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#FFD700"  # Amarelo-ouro
+backgroundColor="#1E1E1E"
+secondaryBackgroundColor="#2C2C2C"
+textColor="#FEFFF5"  # seu off-white
+font="sans serif"
