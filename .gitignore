@@ -1,0 +1,6 @@
+artigos_pdf/
+.vscode/
+__pycache__/
+*.pyc
+.env
+
