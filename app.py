@@ -207,12 +207,12 @@ with tab_sobre:
 
     # Coloque sua foto na mesma pasta do script e mude o nome do arquivo aqui
     # OU coloque um link para uma foto online
-    caminho_da_foto = "https://www.placeholder.com/150" # <--- SUBSTITUA ESTE LINK
+    caminho_da_foto = "eu.png" # <--- SUBSTITUA ESTE LINK
 
     col1, col2 = st.columns([1, 3])
 
     with col1:
-        st.image(caminho_da_foto, caption="Jade Pereira", width=150)
+        st.image(caminho_da_foto, caption="Jade Pereira", width=250)
 
     with col2:
         # Edite este texto com a sua apresentação
