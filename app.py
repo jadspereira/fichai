@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 PROMPT_FICHAMENTO_JSON = """
-Sua tarefa é atuar como um pesquisador assistente e extrair dados estruturados de um artigo científico de qualquer área.
+Sua tarefa é atuar como um pesquisador assistente e extrair dados estruturados de um artigo científico de qualquer área.'
 Analise o TEXTO DO ARTIGO fornecido e retorne um objeto JSON válido contendo as seguintes chaves:
 - "titulo_artigo": (String) O título completo e exato do artigo.
 - "autores": (Lista de Strings) Uma lista com os nomes de todos os autores.
@@ -207,7 +207,7 @@ with tab_sobre:
 
     # Coloque sua foto na mesma pasta do script e mude o nome do arquivo aqui
     # OU coloque um link para uma foto online
-    caminho_da_foto = "https://raw.githubusercontent.com/jadspereira/corpus-compass/main/eu.jpg" # <--- SUBSTITUA ESTE LINK
+    caminho_da_foto = "https://raw.githubusercontent.com/jadspereira/fichai/main/eu.jpg" # <--- SUBSTITUA ESTE LINK
 
     col1, col2 = st.columns([1, 3])
 
