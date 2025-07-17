@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAI
 from langchain_community.document_loaders import PyPDFLoader
 
 st.set_page_config(
-    page_title="Corpus Compass",
+    page_title="FichAI",
     page_icon="💡",
     layout="wide"
 )
@@ -64,7 +64,7 @@ def extrair_dados_com_json(llm, texto_documento, pergunta_extra=None):
         return None
 
 # Interface principal
-st.title(":bulb: Corpus Compass")
+st.title(":bulb: FichAI")
 st.subheader("Analisador de artigos científicos com Inteligência Artificial")
 
 tab_analisador, tab_como_funciona, tab_api_key, tab_sobre = st.tabs([
@@ -221,7 +221,7 @@ with tab_sobre:
         
         Olá! Eu sou estudante de Licenciatura em Ciências Biológicas e uma entusiasta da aplicação de novas tecnologias para acelerar e aprofundar a pesquisa científica.
         
-        Este projeto, **Corpus Compass**, nasceu da minha própria experiência com tarefa de realizar revisões de literatura. Meu objetivo foi criar uma ferramenta intuitiva que pudesse automatizar o trabalho inicial de fichamento, liberando tempo para a parte mais importante: a análise crítica e a geração de novas ideias.
+        Este projeto, **FichAI**, nasceu da minha própria experiência com tarefa de realizar revisões de literatura. Meu objetivo foi criar uma ferramenta intuitiva que pudesse automatizar o trabalho inicial de fichamento, liberando tempo para a parte mais importante: a análise crítica e a geração de novas ideias.
         
         Mas é claro, nenhuma ferramenta substitui o olhar humano. Recomenda-se fortemente que você revise os dados extraídos, especialmente o resumo e as palavras-chave, para garantir que estejam alinhados com o contexto do seu trabalho, beleza?!
         
