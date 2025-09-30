@@ -35,7 +35,7 @@ OBJETO JSON COM OS DADOS EXTRAÍDOS:
 @st.cache_resource
 def get_llm(api_key):
     os.environ['GOOGLE_API_KEY'] = api_key
-    return GoogleGenerativeAI(model="gemini-1.5-flash-latest", temperature=0.0)
+    return GoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.0)
 
 def construir_prompt(texto_documento, pergunta_extra=None):
     prompt_base = PROMPT_FICHAMENTO_JSON
