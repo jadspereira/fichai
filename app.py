@@ -65,7 +65,7 @@ def extrair_dados_com_json(llm, texto_documento, pergunta_extra=None):
 
 # Interface principal
 st.title(":bulb: FichAI")
-st.subheader("Analisador de artigos científicos com Inteligência Artificial")
+st.subheader("Analisador de artigos científicos com Inteligência Artificial!")
 
 tab_analisador, tab_como_funciona, tab_api_key, tab_sobre = st.tabs([
     "**Analisador**", "**Como Funciona**", "**Como obter uma chave de API?**", "**Quem sou eu?**"
